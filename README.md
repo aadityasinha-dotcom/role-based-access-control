@@ -3,7 +3,7 @@
 ## Step 1:
 #### Clone the repository
 ## Step 2:
-#### Create to terminal for backend and frontend
+#### Create two terminals for backend and frontend
 ## Step 3:
 #### Use `cd frontend` and `cd backend` and run npm install to install dependencies
 ## Step 4:
