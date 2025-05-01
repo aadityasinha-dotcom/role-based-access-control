@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cookieSession({
-    name:   "bezkoder-session",
+    name:   "aaditya-session",
     keys:   [process.env.COOKIE_SECRET || "COOKIE_SECRET"],
     httpOnly: true
   })
@@ -52,7 +52,7 @@ function initial() {
 
 // ==== Simple Public Route ====
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to Aaditya application." });
 });
 
 // ==== Import Routes ====
